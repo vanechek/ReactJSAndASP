@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "node-sass": "^6.0.1",
+    "radium": "^0.26.1",
+    "react-redux": "^7.2.5",
+    "redux": "4.1.1",
+    "redux-thunk": "^2.3.0"
+  }
+}

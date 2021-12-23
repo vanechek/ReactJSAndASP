@@ -1,0 +1,113 @@
+﻿.header {
+    width: 100%;
+    background-color: #1abc9c;
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+}
+.menu{
+    margin-right: 10%;
+}
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-content {
+    color: white;
+    font-size: 40px;
+}
+
+.registraion {
+    visibility: hidden;
+    border-radius: 4px;
+    background: #1abc9c;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    text-align: center;
+    padding: 50px;
+    display: none;
+}
+
+.authorisation {
+    visibility: hidden;
+    border-radius: 4px;
+    background: #1abc9c;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    text-align: center;
+    padding: 50px;
+    display: none;
+}
+
+#timeContainer {
+    background-color: black;
+    max-width: 200;
+}
+
+.footer {
+    bottom: 0;
+    background-color: #1abc9c;
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    color: white;
+}
+
+.content {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 268%;
+}
+
+div#account {
+    border: 2px;
+    border-color: black;
+    width: 10%;
+    display: inline-block;
+}
+
+.timer {
+    display: inline-block;
+    background: gray
+}
+
+span.btn-account {
+    border: 0px;
+    background-color: #1abc9c;
+}
+
+.icon_accont {
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20height%3D%2220%22%20width%3D%2220%22%3E%3Cpath%20clip-rule%3D%22evenodd%22%20d%3D%22M5.835%2015.627C7%2016.49%208.44%2017%2010%2017s3.001-.51%204.165-1.373A8.208%208.208%200%200010%2014.5c-1.52%200-2.943.41-4.165%201.127zm-1.14-1.06a7%207%200%201110.609%200A9.707%209.707%200%200010%2013a9.708%209.708%200%2000-5.304%201.568zM10%201.5a8.5%208.5%200%20100%2017%208.5%208.5%200%20000-17zm-1.5%207a1.5%201.5%200%20103%200%201.5%201.5%200%2000-3%200zm1.5-3a3%203%200%20100%206%203%203%200%20000-6z%22%20fill%3D%22%235181b8%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E);
+    width: 20px;
+    height: 20px;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.menuItem {
+    margin-right: 39px;
+    cursor: pointer;
+    margin: 10px 0 8px 5px;
+    display: inline-block;
+}
+
+.menuItem:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.menuItems {
+    position: absolute;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}

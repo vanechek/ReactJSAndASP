@@ -1,0 +1,56 @@
+.authorization {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.authorizationForm {
+    background: #7b8edd;
+    width: 350px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    box-shadow: -1px 0px 14px 1px;
+}
+
+.authorization input {
+    width: 258px;
+    font-size: 19px;
+}
+
+.authorizationButton button {
+    background: white;
+    width: 150px;
+    height: 39px;
+    font-weight: bold;
+    color: gray;
+    font-weight: bold;
+    border: transparent;
+}
+
+.authorizationButton button:disabled {
+    background: #ffeb00;
+}
+
+.authorizationButton button:hover {
+    background: #d4d4d4;
+    transition: 0.1s linear;
+}
+
+.authorizationLogin, .authorizationPassword span {
+    color: #ffeb00;
+}
+
+.authorizationPassword, .authorizationLogin {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

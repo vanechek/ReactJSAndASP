@@ -1,0 +1,31 @@
+.fastFood li {
+    list-style: none;
+}
+
+.fastFood:hover {
+    background: #0dbb83;
+    transition: 0.1s all;
+}
+
+.fastFood {
+    border: 1px solid black;
+    background: #7b8edd;
+}
+
+.fastFood:focus {
+    background: #b2c1ff;
+    transition: 0.1s all;
+}
+
+.selected.fastFood {
+    background: #b2c1ff;
+    transition: 0.1s all;
+}
+
+.modal_content.active button{
+    float: right
+}
+
+.fastFoodContent li{
+    list-style-type: none;
+}
